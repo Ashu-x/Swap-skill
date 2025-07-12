@@ -6,7 +6,6 @@ A collaborative platform for peer-to-peer skill and knowledge exchange without m
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Team](#team)
 
@@ -48,18 +47,14 @@ We emphasize community building, trust, and accessible education for all.
 
 **Backend:**
 - Node.js with Express
-- MongoDB (or PostgreSQL) database
-- Mongoose/Prisma ORM
+- MongoDB database
+- Mongoose
 
 **Additional Services:**
 - Socket.io for real-time features
 - Redis for caching
-- JWT and OAuth for authentication
+- JWT for authentication
 
-**Testing & Deployment:**
-- Jest, Mocha, Chai for testing
-- Vercel for frontend deployment
-- Render/Heroku for backend deployment
 
 ## Usage
 1. Register and create your profile
