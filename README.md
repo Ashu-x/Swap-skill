@@ -1,22 +1,74 @@
-## home router
+# Skill Swap Platform
 
-/home -- count of all users
+A collaborative platform for peer-to-peer skill and knowledge exchange without monetary transactions. Teach what you know, learn what you don't!
 
-## user router
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Team](#team)
 
-/user/login
-/user/register
-/user/profile -- fetch a profile using id
-/user/matches -- provide list of matches
-/user/profile-update -- update user info like username, fname, lname, email and bio
-/user//:userId/skills-update -- add new skill(s)
-/user/:userId/interests-update -- add new interest(s)
+## Overview
+Skill Swap Platform connects individuals who want to teach and learn new skills in a non-monetary, community-driven environment. Users can:
 
-##admin router
+- Create detailed profiles showcasing skills they offer and seek
+- Find ideal learning partners through intelligent matching
+- Schedule and manage skill exchange sessions
+- Track their learning progress over time
 
-/admin/users --show all users
-/admin/skills --show all skills
-/admin/add/skill --add skill
-/admin/add/user --add user
+We emphasize community building, trust, and accessible education for all.
 
+## Features
 
+**Core Functionality:**
+- 🔐 User registration and authentication
+- 📝 Detailed user profiles with skills offered/sought
+- 🔍 Intelligent skill matching algorithm
+- 🗓️ Session scheduling system
+
+**Community Features:**
+- 💬 Real-time chat and notifications
+- ⭐ Review and rating system
+- 🏆 Gamification (badges, leaderboards)
+- 🎉 Event and group session creation
+
+**Technical Features:**
+- 🔒 Secure data handling and privacy controls
+- 📊 Progress tracking dashboard
+- 📚 Session history logging
+
+## Tech Stack 
+
+**Frontend:**
+- React.js framework
+- Tailwind CSS for styling
+- React Hook Form for forms
+
+**Backend:**
+- Node.js with Express
+- MongoDB (or PostgreSQL) database
+- Mongoose/Prisma ORM
+
+**Additional Services:**
+- Socket.io for real-time features
+- Redis for caching
+- JWT and OAuth for authentication
+
+**Testing & Deployment:**
+- Jest, Mocha, Chai for testing
+- Vercel for frontend deployment
+- Render/Heroku for backend deployment
+
+## Usage
+1. Register and create your profile
+2. List skills you can teach and want to learn
+3. Browse matches or use our recommendation system
+4. Schedule sessions with your learning partners
+5. Track your progress and give feedback
+   
+## Team
+1. Ayush Sahu - beingayush66@gmail.com
+2. Sanskar Sahu - sanskarsahu2095@gmail.com
+3. Shreyansh Sahu - sahushriyansh200@gmail.com
